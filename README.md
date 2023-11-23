@@ -1,41 +1,58 @@
-# Deep Neural Networks for Portfolio Selection
+# Deep Neural Networks for Portfolio Selection 📊
 
-## Overview 🌐
-This project replicates and evaluates the Deep Neural Network (DNN) methodology introduced by Da & Jiang (2022) for multi-period portfolio optimization, considering the serial dependence of returns. The initial results highlight the need for further robustness checks to rigorously validate any performance advantages.
+This project replicates and evaluates the Deep Neural Network (DNN) methodology introduced by Tsang K. H. and Wong H. Y. in their 2020 paper "Deep-learning solution to portfolio selection with serially dependent returns". We focus on multi-period portfolio optimization in the context of serial return dependence. The initial findings highlight the importance of additional robustness checks for validating performance benefits. 🚀
 
-## Background 📚
-Portfolio selection poses significant challenges due to high-dimensional covariance matrices, the need for flexible modeling of return dynamics, and various investment constraints. Deep learning offers promising solutions but is susceptible to overfitting. This project explores the application of a DNN architecture on simulated data to test its efficacy in this context.
+## Background 🌐
 
-## Implementation 💡
-- **Deep Neural Network Model**:
-  - Architecture: Feedforward DNN with 2 hidden layers.
-  - Activation Function: Tanh.
-  - Optimization: Batch ADAM.
-- **Testing Scenarios**:
-  - Asset return processes: AR(1) and CCC-GARCH(1,1).
-  - Analysis Focus: Convergence, wealth trajectories, model dynamics, and capital allocation curves.
+Portfolio selection is a complex challenge, compounded by issues like:
 
-## Results 📊
-- The DNN demonstrates reasonable convergence and sensible model dynamics.
-- Challenges Identified:
-  - Multi-period models underperform compared to single-period models.
-  - Overfitting likely contributes to observed discrepancies.
+- High-dimensional covariance matrices 
+- Need for flexible modeling of return dynamics 
+- Various investment constraints 
 
-## Discussion 🔍
-Further refinement and rigorous evaluation are needed in areas including:
-- Reassessment of the single-period model formulation.
-- Enhancing out-of-sample evaluation methods.
-- Reducing model complexity to mitigate overfitting.
-- Reconciling performance differences.
-- Ensuring the deep learning approach efficiently addresses portfolio optimization challenges.
+Deep learning offers promising solutions, but it also brings concerns about potential overfitting. This project tests a DNN architecture against simulated data to explore these challenges. 💡
 
-## Next Steps 🚀
-- Re-confirm single-period performance.
-- Implement a rigorous validation suite.
-- Experiment with adjustments to the DNN model.
-- Investigate and address performance gaps.
-- Detail techniques for data processing and analysis.
+## Implementation 🛠️
+
+Our implementation features:
+
+- A feedforward DNN model with 2 hidden layers and Tanh activation 
+- Batch ADAM optimization for efficient training 
+- Testing under AR(1) processes and CCC-GARCH(1,1) dynamics 
+
+The focus is on convergence, wealth trajectories, model dynamics, and capital allocation curves. 
+
+## Results 📋
+
+The DNN model shows:
+
+- Reasonable convergence 
+- Sensible model dynamics 
+- However, multi-period optimization underperforms single-period models, likely due to overfitting 
+
+## Discussion 💬
+
+Key areas for further exploration include:
+
+- Refining single-period optimization methods 
+- Implementing rigorous out-of-sample evaluations 
+- Reducing model complexity to mitigate overfitting risks 
+- Addressing performance discrepancies for a clearer understanding 
+
+Our goal is to validate deep learning's efficiency in portfolio optimization through more robust methodologies. 
+
+## Next Steps 🚶‍♂️
+
+Moving forward, we plan to:
+
+- Re-confirm single-period performance metrics 
+- Introduce a comprehensive validation suite 
+- Experiment with model adjustments for better performance 
+- Investigate and understand performance gaps 
+- Elaborate on our data processing techniques for transparency 
 
 
-*This README is part of a graduate course project for the Department of Applied Mathematics and Statistics at Stony Brook University.*
+
+
+
 
