@@ -49,5 +49,5 @@ The project underscores the potential and limitations of deep learning in financ
 
 ---
 
-**This README is part of a graduate course project for the Department of Applied Mathematics and Statistics at Stony Brook University.**
+*<small>This README is part of a graduate course project for the Department of Applied Mathematics and Statistics at Stony Brook University.</small>*
 
