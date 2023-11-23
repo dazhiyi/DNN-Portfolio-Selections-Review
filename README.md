@@ -16,7 +16,6 @@ The project aims to tackle the challenges in portfolio optimization, especially 
 - The study offers critical insights into the application of the efficient frontier concept in modern portfolio theory.
 
 ## Usage and Implementation 🛠️
-## Usage and Implementation 🛠️
 To implement and utilize the deep-learning solution for this portfolio selection problem, follow these steps:
 1. **Data Generation:** Use Monte-Carlo simulation to generate a large dataset for feeding into the deep-learning model, effectively handling high-dimensional problems.
 2. **Model Construction:** 
@@ -50,5 +49,5 @@ The project underscores the potential and limitations of deep learning in financ
 
 ---
 
-*This README is part of a graduate course project for the Department of Applied Mathematics and Statistics at Stony Brook University.*
+**This README is part of a graduate course project for the Department of Applied Mathematics and Statistics at Stony Brook University.**
 
