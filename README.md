@@ -2,7 +2,7 @@
 
 ## Original Paper Summary 📝
 
-* **Title**: "Deep-learning solution to portfolio selection with serially dependent returns"
+* **Title**: Deep-learning solution to portfolio selection with serially dependent returns
 * **Authors**: Tsang K. H. and Wong H. Y.
 * **Published**: 2020
 * **Key Insights**:
