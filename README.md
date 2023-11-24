@@ -1,58 +1,55 @@
 # Deep Neural Networks for Portfolio Selection 📊
 
-This project replicates and evaluates the Deep Neural Network (DNN) methodology introduced by Tsang K. H. and Wong H. Y. in their 2020 paper "Deep-learning solution to portfolio selection with serially dependent returns". We focus on multi-period portfolio optimization in the context of serial return dependence. The initial findings highlight the importance of additional robustness checks for validating performance benefits. 
+## Original Paper Summary 📝
 
-## Background 🌐
+* **Title**: "Deep-learning solution to portfolio selection with serially dependent returns"
+* **Authors**: Tsang K. H. and Wong H. Y.
+* **Published**: 2020
+* **Key Insights**:
+  - Proposes a novel deep learning approach for multi-period portfolio optimization.
+  - Addresses the challenge of serial return dependence in financial markets.
+  - Offers a methodological framework for incorporating deep neural networks in portfolio selection.
 
-Portfolio selection is a complex challenge, compounded by issues like:
+## Overview 🌐
 
-- High-dimensional covariance matrices 
-- Need for flexible modeling of return dynamics 
-- Various investment constraints 
+This project replicates and evaluates Tsang and Wong's 2020 methodology for multi-period portfolio optimization, considering serial return dependence. Our initial results highlight the need for further robustness checks to validate performance advantages.
 
-Deep learning offers promising solutions, but it also brings concerns about potential overfitting. This project tests a DNN architecture against simulated data to explore these challenges. 
+## Background and Challenges 🧩
 
-## Implementation 🛠️
+Portfolio selection is complex due to:
+- High-dimensional covariance matrices.
+- Flexible modeling of return dynamics.
+- Various investment constraints.
+Deep learning offers potential solutions but faces challenges like overfitting. Our project tests a DNN architecture against simulated data.
 
-Our implementation features:
+## Implementation Details 🛠️
 
-- A feedforward DNN model with 2 hidden layers and Tanh activation 
-- Batch ADAM optimization for efficient training 
-- Testing under AR(1) processes and CCC-GARCH(1,1) dynamics 
+Our implementation includes:
+- A feedforward DNN model with 2 hidden layers and Tanh activation.
+- Batch ADAM optimization.
+- Tests under AR(1) processes and CCC-GARCH(1,1) dynamics.
+Focus areas include convergence, wealth trajectories, model dynamics, and capital allocation.
 
-The focus is on convergence, wealth trajectories, model dynamics, and capital allocation curves.
-
-## Results 📋
+## Results and Observations 📋
 
 The DNN model shows:
+- Reasonable convergence.
+- Sensible model dynamics.
+- Multi-period optimization underperforms single-period models, likely due to overfitting.
 
-- Reasonable convergence 
-- Sensible model dynamics 
-- However, multi-period optimization underperforms single-period models, likely due to overfitting 
+## Discussion and Future Directions 💡
 
-## Discussion 💬
+Areas for further exploration:
+- Refining single-period optimization methods.
+- Rigorous out-of-sample evaluations.
+- Reducing model complexity to mitigate overfitting.
+- Addressing performance discrepancies for clearer understanding.
 
-Key areas for further exploration include:
+## Next Steps 🚀
 
-- Refining single-period optimization methods 
-- Implementing rigorous out-of-sample evaluations 
-- Reducing model complexity to mitigate overfitting risks 
-- Addressing performance discrepancies for a clearer understanding 
-
-Our goal is to validate deep learning's efficiency in portfolio optimization through more robust methodologies. 
-
-## Next Steps 🚶‍♂️
-
-Moving forward, we plan to:
-
-- Re-confirm single-period performance metrics 
-- Introduce a comprehensive validation suite 
-- Experiment with model adjustments for better performance 
-- Investigate and understand performance gaps 
-- Elaborate on our data processing techniques for transparency 
-
-
-
-
-
-
+Our future plans involve:
+- Re-confirming single-period performance.
+- Introducing a comprehensive validation suite.
+- Model adjustments for better performance.
+- Investigating performance gaps.
+- Elaborating on data processing techniques.
